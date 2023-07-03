@@ -27,7 +27,7 @@
     }
 
     button {
-      background-color: #4CAF50;
+      background-color: teal;
       color: white;
       border: none;
       padding: 10px 20px;
@@ -47,7 +47,7 @@
 <body>
   <div class="container">
     <h1>Shayari Generator</h1>
-    <textarea id="inputText" placeholder="Enter your words here"></textarea>
+    <textarea id="inputText" placeholder="Enter topic in which you want your shayri"></textarea>
     <button onclick="generateShayari()">Generate</button>
     <div id="result"></div>
   </div>
@@ -67,7 +67,7 @@
       })
       .then(response => {
         if(response.status == 429){
-          return alert("You have reached the limit, please wait 5 minutes to make another request.")
+          return alert("Limit exceeded. Please wait for 5 minutes to make another request!")
         } else {
           return response.json()
         }
