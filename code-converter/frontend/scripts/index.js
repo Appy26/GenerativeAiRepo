@@ -9,7 +9,7 @@ convertBtn.addEventListener('click', async() => {
     const code = document.getElementById('code').value;
     const language = document.getElementById('language').value;
     if(!language){
-        return alert("Please select language to convert")
+        return alert("select a language in which language you want to convert")
     }
     showLoader();
     const req = await fetch(`${url}/code/convert/${language}`,{
@@ -23,7 +23,7 @@ convertBtn.addEventListener('click', async() => {
     if(res.ok){
         createDOM(res.code)
     } else {
-        alert("You have reached the limit. Please wait for 5 minutes to make another request!")
+        alert("Limit exceeded. Please wait for 5 minutes to make another request!")
     }
     hideLoader();
 });
@@ -43,7 +43,7 @@ debugBtn.addEventListener('click', async() => {
     if(res.ok){
         createDOM(res.code)
     } else {
-        alert("You have reached the limit. Please wait for 5 minutes to make another request!")
+        alert("Limit exceeded. Please wait for 5 minutes to make another request!")
     }
     hideLoader();
 });
@@ -62,7 +62,7 @@ checkQualityBtn.addEventListener('click', async() => {
     if(res.ok){
         createDOM(res.code)
     } else {
-        alert("You have reached the limit. Please wait for 5 minutes to make another request!")
+        alert("Limit exceeded. Please wait for 5 minutes to make another request!")
     }
     hideLoader();
 });

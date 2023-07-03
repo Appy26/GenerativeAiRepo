@@ -6,7 +6,7 @@ body {
 
 h1 {
     text-align: center;
-    color: rgb(144, 127, 241);
+    color:grey;
 }
 
 label {
@@ -45,7 +45,7 @@ select {
 button {
     display: block;
     margin-top: 10px;
-    background-color: rgb(140, 66, 238);
+    background-color:teal;
     color: #fff;
     padding: 8px 15px;
     border: none;
@@ -59,7 +59,7 @@ button {
 }
 button:hover{
     cursor: pointer;
-    background-color: rgb(168, 113, 240);
+    background-color: rgba(35, 54, 221, 0.43);
 }
 
 #loader {
