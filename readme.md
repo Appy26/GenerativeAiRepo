@@ -7,7 +7,9 @@
 - Visit: https://shyaari-generator.onrender.com
 ## Code Converter
 - Visit: https://masai-code-converter.netlify.app
-##Shayri generator netlify link-
-visit-https://luxury-crostata-967cd9.netlify.app/
-code    converter netlify link-
-visit-https://friendly-treacle-8d821d.netlify.app/
+
+## Shayri generator netlify link-
+- visit-https://luxury-crostata-967cd9.netlify.app/
+
+## code-converter netlify link-
+- visit-https://friendly-treacle-8d821d.netlify.app/
