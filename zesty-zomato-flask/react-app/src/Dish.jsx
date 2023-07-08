@@ -2,11 +2,10 @@ import React from 'react'
 import { useForm } from '@mantine/form';
 import { useDisclosure } from '@mantine/hooks';
 import { LoadingOverlay, TextInput, NumberInput, Button } from '@mantine/core';
-import { notification } from './notification';
+import { notification, url } from './notification';
 
 export default function Dish({ close }) {
     const [visible, { toggle }] = useDisclosure(false);
-    const url = "https://zomato-chronicles.onrender.com"
     const form = useForm({
         initialValues: {
             name: '',

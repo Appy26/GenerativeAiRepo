@@ -2,17 +2,16 @@ import { Group, Button, Text, TextInput, LoadingOverlay } from '@mantine/core';
 import { useCounter, useDisclosure } from '@mantine/hooks';
 import { useState } from 'react'
 import styles from "./App.module.css";
-import { notification } from "./notification"
+import { notification, url } from "./notification"
 
 export default function Order({ close }) {
     const [count, handlers] = useCounter(0, { min: 0, max: 10 });
     const [inputValue, setInputValue] = useState('');
     const [visible, { toggle }] = useDisclosure(false);
-    const url = "https://zomato-chronicles.onrender.com"
 
     const handleOrder = async() => {
         if(!count || !inputValue){
-            return notificationw("",`Please fill all the fields!`, "white","#EF5350")
+            return notification("",`Please fill all the fields!`, "white","#EF5350")
         }
         toggle()
         const dish = JSON.parse(sessionStorage.getItem('dish'));
@@ -21,7 +20,7 @@ export default function Order({ close }) {
             headers:{
                 "content-type":"application/json"
             },
-            body:JSON.stringify({dish:dish.dish, name:inputValue, quantity:count, dishName:dish.name, price:dish.price})
+            body:JSON.stringify({dish:dish._id, name:inputValue, quantity:count, dishName:dish.name, price:dish.price})
         })
         const res = await req.json()
         if(res.ok){
