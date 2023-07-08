@@ -7,9 +7,9 @@ Add a Dish
 
 place a order 
 {
-    "name": "Rishab",
-    "dishName": "Chicken Biryani",
-    "price": 180,
+    "name": "john cena",
+    "dishName": "Chicken ",
+    "price": 120,
     "quantity": 1,
     "status": "received",
     "dish": "64a6c3240d5e7c0900b3a802"
