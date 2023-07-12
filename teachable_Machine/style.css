@@ -1,0 +1,70 @@
+   #webcam-container{
+    margin-left: 43%;
+    margin-top: 1%;
+   }
+#label-container{
+  color:white;
+   margin-left: 43%;
+    margin-top: 1%;
+   border:1px solid white;
+   width:13%;
+   text-align: center;
+}
+body{
+ background-image: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif");
+}
+#heading{
+  width:60%;
+  margin:auto;
+  text-align: center;
+  border:0px solid teal;
+  color:white;
+  font-style: italic;
+}
+
+#start {
+  border:0px solid red;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color:purple;
+  color: white;
+ margin-left: 45%;
+ margin-top: 1%;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#start:hover {
+  background-color: #45a049;
+}
+#start:active {
+  background-color: #3e8e41;
+}
+
+/* Additional Styles */
+#start.secondary {
+  background-color: #555555;
+}
+
+#start.secondary:hover {
+  background-color: #4d4d4d;
+}
+
+#start.large {
+  padding: 15px 30px;
+  font-size: 18px;
+}
+
+#start.small {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+
+
+
+
