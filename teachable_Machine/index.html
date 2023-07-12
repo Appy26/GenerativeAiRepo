@@ -11,6 +11,8 @@
 
 <div id="webcam-container"></div>
 <div id="label-container"></div>
+<button id="stop" type="button" onclick="stop()">Stop</button>
+<button id="stop" type="button" onclick="play()">play</button>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
 <script type="text/javascript">
@@ -65,6 +67,12 @@
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }
+    function stop(){
+        webcam.pause();
+    }
+    function play() {
+            webcam.play();
+        }
 </script>
 
 </body>
