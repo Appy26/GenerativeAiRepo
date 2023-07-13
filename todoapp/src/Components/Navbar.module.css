@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+  color: black;
+  align-items: center;
+  border: 0px solid gray;
+  margin-top: 23px;
+}
+.li {
+  list-style: none;
+  text-decoration: double;
+  color: black;
+  font-weight: bold;
+}

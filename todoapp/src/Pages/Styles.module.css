@@ -1,0 +1,68 @@
+.main {
+  width: 60%;
+  margin: auto;
+  color: teal;
+  font-weight: bolder;
+  font-size: large;
+  text-align: center;
+}
+.main button {
+  background-color: teal;
+  border-radius: 11px;
+  padding: 10px;
+  margin-top: 23px;
+}
+.links {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+.input {
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 11px;
+  margin-left: 12%;
+}
+.btn {
+  padding: 10px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 11px;
+  margin-left: 12%;
+  margin-top: 11px;
+}
+.btn2 {
+  padding: 10px;
+  margin: auto;
+  border: 0px solid black;
+  border-radius: 11px;
+  margin-left: 12%;
+  background-color: tomato;
+  margin-top: 11px;
+  color: white;
+}
+.btn3 {
+  padding: 10px;
+  margin: auto;
+  border: 0px solid black;
+  border-radius: 11px;
+  margin-left: 12%;
+  background-color: rgb(78, 69, 205);
+  margin-top: 11px;
+  color: white;
+}
+
+.ul {
+  width: 35%;
+  margin: auto;
+  text-align: center;
+  border: 0px solid black;
+  padding: 23px;
+}
+.li {
+  color: teal;
+  font-weight: bold;
+  list-style: none;
+}
