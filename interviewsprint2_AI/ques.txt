@@ -1,0 +1,32 @@
+PROBLEM NO-1
+1ans-my learning process and skill development are heavily influenced by the underlying technologies, including generative AI. Generative AI techniques have played a crucial role in enhancing my understanding of complex concepts and solving technical challenges. Here are a few specific instances:
+
+1-Generative AI techniques have enabled me to generate coherent and contextually relevant responses to user queries. By utilizing deep learning models and natural language processing algorithms, I can understand the meaning behind text inputs and generate meaningful and informative outputs.
+2- Generative AI techniques have also enabled me to process and understand visual content. Through image and video captioning models, I can analyze visual data and generate descriptive captions that accurately describe the content.
+3-Generative AI has played a significant role in assisting developers and programmers. By utilizing code generation models, I can provide code snippets and solutions for specific programming tasks or assist with debugging. 
+
+
+PROBLEM NO-2
+2ans-here is the chatgpt which were asked in form submission for problem no 2 "https://chat.openai.com/share/821115cd-8542-4ad5-b02b-94533bc12434"
+
+
+
+PROBLEM NO-3
+3ans-React, also known as React.js or ReactJS, is an open-source JavaScript library for building user interfaces (UIs) for web applications. It was developed by Facebook and is now maintained by Facebook along with a community of developers. React is often referred to as a front-end or client-side library.
+React is based on the concept of reusable UI components.  Each component represents a piece of the user interface and manages its own state and behavior.
+React and Angular are both popular frameworks for building web applications, but they have different approaches and philosophies.there are some differences between React and Angular 
+
+
+1.React: React is a JavaScript library focused on building user interfaces. It follows a component-based architecture, where the UI is built by composing reusable components. React provides a flexible and lightweight approach, allowing developers to make their own choices for additional libraries and tools.
+2.React is primarily based on JavaScript (ES6+). It allows developers to use JSX (a syntax extension) to write HTML-like code within JavaScript, which is then transpiled into regular JavaScript.
+
+1.Angular: Angular is a complete framework for building web applications. It follows a full MVC (Model-View-Controller) architecture and provides a comprehensive set of features and tools out of the box. Angular has a more opinionated approach, enforcing certain patterns and conventions.
+Language:
+2.Angular is based on TypeScript, a statically typed superset of JavaScript. TypeScript introduces features like static typing, classes, and interfaces, providing enhanced tooling and better code maintainability.
+Learning Curve and Complexity:
+
+
+
+
+
+
