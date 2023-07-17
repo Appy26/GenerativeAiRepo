@@ -8,5 +8,5 @@ def is_palindrome_number(number):
         return True
     else:
         return False
-    is_palindrome_number()
+  
    
